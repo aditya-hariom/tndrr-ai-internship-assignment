@@ -1,0 +1,2019 @@
+{
+  "metadata": {
+    "dataset": "NIST AI 100-1 (AI RMF 1.0)",
+    "total_pages": 48,
+    "small_chunk_count": 77,
+    "large_chunk_count": 39,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "eval_date": "2026-11-19 15:02:38"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "Direct Factual",
+      "question": "What are the four core functions that organize AI risk management activities in the NIST AI RMF Core?",
+      "target_page": 25,
+      "correct_answer": "The four core functions are GOVERN, MAP, MEASURE, and MANAGE.",
+      "exact_source_passage": "the Core is composed of four functions: GOVERN, MAP, MEASURE, and MANAGE. Each of these high-level functions is broken down into categories and subcategories.",
+      "small_chunk_results": {
+        "is_hit": true,
+        "hit_rank": 1,
+        "mrr": 1.0,
+        "precision_at_5": 0.2,
+        "top_retrieved": [
+          {
+            "chunk_id": "small_chunk_0039",
+            "score": 0.8148,
+            "page": 24,
+            "pages": [
+              24,
+              25
+            ],
+            "text_snippet": "communities, organizations, and society; • better information sharing within and across organizations about risks, decisionmaking processes, responsibilities, common pitfalls, TEVV..."
+          },
+          {
+            "chunk_id": "small_chunk_0059",
+            "score": 0.7484,
+            "page": 36,
+            "pages": [
+              36,
+              37
+            ],
+            "text_snippet": "relevant AI actors evolve over time. Page 31 Practices related to managing AI risks are described in the NIST AI RMF Playbook. Table 4 lists the MANAGE function’s categories and su..."
+          },
+          {
+            "chunk_id": "small_chunk_0009",
+            "score": 0.732,
+            "page": 7,
+            "pages": [
+              7,
+              8
+            ],
+            "text_snippet": "align the AI RMF and related guidance with applicable international standards, guidelines, and practices. As the AI RMF is put into use, additional lessons will be learned to infor..."
+          },
+          {
+            "chunk_id": "small_chunk_0003",
+            "score": 0.7245,
+            "page": 4,
+            "pages": [
+              4,
+              5
+            ],
+            "text_snippet": "RMF Core 20 5.1 Govern 21 5.2 Map 24 5.3 Measure 28 5.4 Manage 31 6 AI RMF Profiles 33 Appendix A: Descriptions of AI Actor Tasks from Figures 2 and 3 35 Appendix B: How AI Risks D..."
+          },
+          {
+            "chunk_id": "small_chunk_0071",
+            "score": 0.7195,
+            "page": 44,
+            "pages": [
+              44
+            ],
+            "text_snippet": "of AI systems. Privacy and cybersecurity risks are also considered as part of broader enterprise risk management considerations, which may incorporate AI risks. As part of the effo..."
+          }
+        ]
+      },
+      "large_chunk_results": {
+        "is_hit": true,
+        "hit_rank": 1,
+        "mrr": 1.0,
+        "precision_at_5": 0.2,
+        "top_retrieved": [
+          {
+            "chunk_id": "large_chunk_0020",
+            "score": 0.8148,
+            "page": 24,
+            "pages": [
+              24,
+              25,
+              26
+            ],
+            "text_snippet": "communities, organizations, and society; • better information sharing within and across organizations about risks, decisionmaking processes, responsibilities, common pitfalls, TEVV..."
+          },
+          {
+            "chunk_id": "large_chunk_0030",
+            "score": 0.7484,
+            "page": 36,
+            "pages": [
+              36,
+              37,
+              38
+            ],
+            "text_snippet": "relevant AI actors evolve over time. Page 31 Practices related to managing AI risks are described in the NIST AI RMF Playbook. Table 4 lists the MANAGE function’s categories and su..."
+          },
+          {
+            "chunk_id": "large_chunk_0005",
+            "score": 0.732,
+            "page": 7,
+            "pages": [
+              7,
+              8,
+              9
+            ],
+            "text_snippet": "align the AI RMF and related guidance with applicable international standards, guidelines, and practices. As the AI RMF is put into use, additional lessons will be learned to infor..."
+          },
+          {
+            "chunk_id": "large_chunk_0002",
+            "score": 0.7245,
+            "page": 4,
+            "pages": [
+              4,
+              5,
+              6
+            ],
+            "text_snippet": "RMF Core 20 5.1 Govern 21 5.2 Map 24 5.3 Measure 28 5.4 Manage 31 6 AI RMF Profiles 33 Appendix A: Descriptions of AI Actor Tasks from Figures 2 and 3 35 Appendix B: How AI Risks D..."
+          },
+          {
+            "chunk_id": "large_chunk_0036",
+            "score": 0.7195,
+            "page": 44,
+            "pages": [
+              44,
+              45
+            ],
+            "text_snippet": "of AI systems. Privacy and cybersecurity risks are also considered as part of broader enterprise risk management considerations, which may incorporate AI risks. As part of the effo..."
+          }
+        ]
+      },
+      "bm25_small_results": {
+        "is_hit": true,
+        "hit_rank": 1
+      },
+      "generated_answer": "Based on the retrieved source passages, communities, organizations, and society; • better information sharing within and across organizations about risks, decisionmaking processes, responsibilities, common pitfalls, TEVV practices, and approaches for continuous improvement; • greater contextual knowledge for increased awareness of downstream risks; • strengthened engagement with interested parties and relevant AI actors; and • augmented capacity for TEVV of AI systems and associated risks. Page 19 Part 2: Core and Profiles 5. AI RMF Core The AI RMF Core provides outcomes and actions that enable dialogue, understanding, and activities to manage AI risks and responsibly develop trustworthy AI systems. [Source: NIST_AI_RMF_1.0.pdf, Page 24].",
+      "llm_provider": "grounded_fallback"
+    },
+    {
+      "id": 2,
+      "type": "Direct Factual",
+      "question": "According to the NIST AI RMF, what are the three major categories of AI bias that must be considered and managed?",
+      "target_page": 23,
+      "correct_answer": "The three major categories of AI bias are systemic, computational and statistical, and human-cognitive.",
+      "exact_source_passage": "NIST has identified three major categories of AI bias to be considered and managed: systemic, computational and statistical, and human-cognitive.",
+      "small_chunk_results": {
+        "is_hit": true,
+        "hit_rank": 2,
+        "mrr": 0.5,
+        "precision_at_5": 0.2,
+        "top_retrieved": [
+          {
+            "chunk_id": "small_chunk_0038",
+            "score": 0.6754,
+            "page": 23,
+            "pages": [
+              23,
+              24
+            ],
+            "text_snippet": "for Identifying and Managing Bias in Artificial Intelligence.) Page 18 4. Effectiveness of the AI RMF Evaluations of AI RMF effectiveness – including ways to measure bottom-line im..."
+          },
+          {
+            "chunk_id": "small_chunk_0037",
+            "score": 0.6561,
+            "page": 23,
+            "pages": [
+              23,
+              24
+            ],
+            "text_snippet": "can occur in the absence of prejudice, partiality, or discriminatory intent. Systemic bias can be present in AI datasets, the organizational norms, practices, and processes across ..."
+          },
+          {
+            "chunk_id": "small_chunk_0076",
+            "score": 0.6109,
+            "page": 46,
+            "pages": [
+              46,
+              47
+            ],
+            "text_snippet": "about the frequency and rationale with which humans overrule AI system output in deployed systems may be useful to collect and analyze. Page 41 Appendix D: Attributes of the AI RMF..."
+          },
+          {
+            "chunk_id": "small_chunk_0003",
+            "score": 0.5977,
+            "page": 4,
+            "pages": [
+              4,
+              5
+            ],
+            "text_snippet": "RMF Core 20 5.1 Govern 21 5.2 Map 24 5.3 Measure 28 5.4 Manage 31 6 AI RMF Profiles 33 Appendix A: Descriptions of AI Actor Tasks from Figures 2 and 3 35 Appendix B: How AI Risks D..."
+          },
+          {
+            "chunk_id": "small_chunk_0009",
+            "score": 0.5891,
+            "page": 7,
+            "pages": [
+              7,
+              8
+            ],
+            "text_snippet": "align the AI RMF and related guidance with applicable international standards, guidelines, and practices. As the AI RMF is put into use, additional lessons will be learned to infor..."
+          }
+        ]
+      },
+      "large_chunk_results": {
+        "is_hit": true,
+        "hit_rank": 1,
+        "mrr": 1.0,
+        "precision_at_5": 0.2,
+        "top_retrieved": [
+          {
+            "chunk_id": "large_chunk_0019",
+            "score": 0.6561,
+            "page": 23,
+            "pages": [
+              23,
+              24,
+              25
+            ],
+            "text_snippet": "can occur in the absence of prejudice, partiality, or discriminatory intent. Systemic bias can be present in AI datasets, the organizational norms, practices, and processes across ..."
+          },
+          {
+            "chunk_id": "large_chunk_0002",
+            "score": 0.5977,
+            "page": 4,
+            "pages": [
+              4,
+              5,
+              6
+            ],
+            "text_snippet": "RMF Core 20 5.1 Govern 21 5.2 Map 24 5.3 Measure 28 5.4 Manage 31 6 AI RMF Profiles 33 Appendix A: Descriptions of AI Actor Tasks from Figures 2 and 3 35 Appendix B: How AI Risks D..."
+          },
+          {
+            "chunk_id": "large_chunk_0005",
+            "score": 0.5891,
+            "page": 7,
+            "pages": [
+              7,
+              8,
+              9
+            ],
+            "text_snippet": "align the AI RMF and related guidance with applicable international standards, guidelines, and practices. As the AI RMF is put into use, additional lessons will be learned to infor..."
+          },
+          {
+            "chunk_id": "large_chunk_0011",
+            "score": 0.5652,
+            "page": 14,
+            "pages": [
+              14,
+              15
+            ],
+            "text_snippet": "organization or industry. In addition, small to medium-sized organizations managing AI risks or implementing the AI RMF may face different challenges than large organizations, depe..."
+          },
+          {
+            "chunk_id": "large_chunk_0030",
+            "score": 0.5648,
+            "page": 36,
+            "pages": [
+              36,
+              37,
+              38
+            ],
+            "text_snippet": "relevant AI actors evolve over time. Page 31 Practices related to managing AI risks are described in the NIST AI RMF Playbook. Table 4 lists the MANAGE function’s categories and su..."
+          }
+        ]
+      },
+      "bm25_small_results": {
+        "is_hit": true,
+        "hit_rank": 1
+      },
+      "generated_answer": "Based on the retrieved source passages, for Identifying and Managing Bias in Artificial Intelligence.) Page 18 4. Effectiveness of the AI RMF Evaluations of AI RMF effectiveness – including ways to measure bottom-line improvements in the trustworthiness of AI systems – will be part of future NIST activities, in conjunction with the AI community. Organizations and other users of the Framework are encouraged to periodically evaluate whether the AI RMF has improved their ability to manage AI risks, including but not limited to their policies, processes, practices, implementation plans, indicators, measurements, and expected outcomes. [Source: NIST_AI_RMF_1.0.pdf, Page 23].",
+      "llm_provider": "grounded_fallback"
+    },
+    {
+      "id": 3,
+      "type": "Understanding",
+      "question": "Why is GOVERN described as a cross-cutting function in the AI RMF Core?",
+      "target_page": 27,
+      "correct_answer": "GOVERN is cross-cutting because it is infused throughout AI risk management, enables and connects the other functions (MAP, MEASURE, MANAGE), and ensures continual risk governance across organizational leadership, culture, and lifecycle processes.",
+      "exact_source_passage": "GOVERN is a cross-cutting function that is infused throughout AI risk management and enables the other functions of the process. Aspects of GOVERN, especially those related to compliance or evaluation, are often best integrated into... risk culture.",
+      "small_chunk_results": {
+        "is_hit": true,
+        "hit_rank": 3,
+        "mrr": 0.3333333333333333,
+        "precision_at_5": 0.4,
+        "top_retrieved": [
+          {
+            "chunk_id": "small_chunk_0039",
+            "score": 0.5932,
+            "page": 24,
+            "pages": [
+              24,
+              25
+            ],
+            "text_snippet": "communities, organizations, and society; • better information sharing within and across organizations about risks, decisionmaking processes, responsibilities, common pitfalls, TEVV..."
+          },
+          {
+            "chunk_id": "small_chunk_0003",
+            "score": 0.5566,
+            "page": 4,
+            "pages": [
+              4,
+              5
+            ],
+            "text_snippet": "RMF Core 20 5.1 Govern 21 5.2 Map 24 5.3 Measure 28 5.4 Manage 31 6 AI RMF Profiles 33 Appendix A: Descriptions of AI Actor Tasks from Figures 2 and 3 35 Appendix B: How AI Risks D..."
+          },
+          {
+            "chunk_id": "small_chunk_0041",
+            "score": 0.5314,
+            "page": 26,
+            "pages": [
+              26,
+              27
+            ],
+            "text_snippet": "others may choose and have the capacity to apply all categories and subcategories. Assuming a governance structure is in place, functions may be performed in any order across the A..."
+          },
+          {
+            "chunk_id": "small_chunk_0062",
+            "score": 0.5152,
+            "page": 38,
+            "pages": [
+              38,
+              39,
+              40
+            ],
+            "text_snippet": "or application context. An AI RMF Current Profile indicates how AI is currently being managed and the related risks in terms of current outcomes. A Target Profile indicates the out..."
+          },
+          {
+            "chunk_id": "small_chunk_0043",
+            "score": 0.503,
+            "page": 27,
+            "pages": [
+              27,
+              28
+            ],
+            "text_snippet": "organizations should benefit from a purpose-driven culture focused on risk understanding and management. It is incumbent on Framework users to continue to execute the GOVERN functi..."
+          }
+        ]
+      },
+      "large_chunk_results": {
+        "is_hit": true,
+        "hit_rank": 3,
+        "mrr": 0.3333333333333333,
+        "precision_at_5": 0.4,
+        "top_retrieved": [
+          {
+            "chunk_id": "large_chunk_0020",
+            "score": 0.5932,
+            "page": 24,
+            "pages": [
+              24,
+              25,
+              26
+            ],
+            "text_snippet": "communities, organizations, and society; • better information sharing within and across organizations about risks, decisionmaking processes, responsibilities, common pitfalls, TEVV..."
+          },
+          {
+            "chunk_id": "large_chunk_0002",
+            "score": 0.5566,
+            "page": 4,
+            "pages": [
+              4,
+              5,
+              6
+            ],
+            "text_snippet": "RMF Core 20 5.1 Govern 21 5.2 Map 24 5.3 Measure 28 5.4 Manage 31 6 AI RMF Profiles 33 Appendix A: Descriptions of AI Actor Tasks from Figures 2 and 3 35 Appendix B: How AI Risks D..."
+          },
+          {
+            "chunk_id": "large_chunk_0021",
+            "score": 0.5314,
+            "page": 26,
+            "pages": [
+              26,
+              27
+            ],
+            "text_snippet": "others may choose and have the capacity to apply all categories and subcategories. Assuming a governance structure is in place, functions may be performed in any order across the A..."
+          },
+          {
+            "chunk_id": "large_chunk_0022",
+            "score": 0.503,
+            "page": 27,
+            "pages": [
+              27,
+              28,
+              29
+            ],
+            "text_snippet": "organizations should benefit from a purpose-driven culture focused on risk understanding and management. It is incumbent on Framework users to continue to execute the GOVERN functi..."
+          },
+          {
+            "chunk_id": "large_chunk_0005",
+            "score": 0.4778,
+            "page": 7,
+            "pages": [
+              7,
+              8,
+              9
+            ],
+            "text_snippet": "align the AI RMF and related guidance with applicable international standards, guidelines, and practices. As the AI RMF is put into use, additional lessons will be learned to infor..."
+          }
+        ]
+      },
+      "bm25_small_results": {
+        "is_hit": true,
+        "hit_rank": 2
+      },
+      "generated_answer": "Based on the retrieved source passages, communities, organizations, and society; • better information sharing within and across organizations about risks, decisionmaking processes, responsibilities, common pitfalls, TEVV practices, and approaches for continuous improvement; • greater contextual knowledge for increased awareness of downstream risks; • strengthened engagement with interested parties and relevant AI actors; and • augmented capacity for TEVV of AI systems and associated risks. Page 19 Part 2: Core and Profiles 5. AI RMF Core The AI RMF Core provides outcomes and actions that enable dialogue, understanding, and activities to manage AI risks and responsibly develop trustworthy AI systems. [Source: NIST_AI_RMF_1.0.pdf, Page 24].",
+      "llm_provider": "grounded_fallback"
+    },
+    {
+      "id": 4,
+      "type": "Understanding",
+      "question": "How does the NIST AI RMF define the distinction between explainability and interpretability in AI systems?",
+      "target_page": 21,
+      "correct_answer": "Explainability refers to a representation of the mechanisms underlying AI systems' operation, whereas interpretability refers to the meaning of AI systems' output in the context of their designed functional purposes.",
+      "exact_source_passage": "Explainability refers to a representation of the mechanisms underlying AI systems’ operation, whereas interpretability refers to the meaning of AI systems’ output in the context of their designed functional purposes.",
+      "small_chunk_results": {
+        "is_hit": true,
+        "hit_rank": 1,
+        "mrr": 1.0,
+        "precision_at_5": 0.2,
+        "top_retrieved": [
+          {
+            "chunk_id": "small_chunk_0034",
+            "score": 0.6839,
+            "page": 21,
+            "pages": [
+              21,
+              22
+            ],
+            "text_snippet": "ensure that AI systems are used as intended. 3.5 Explainable and Interpretable Explainability refers to a representation of the mechanisms underlying AI systems’ operation, whereas..."
+          },
+          {
+            "chunk_id": "small_chunk_0035",
+            "score": 0.5439,
+            "page": 22,
+            "pages": [
+              22
+            ],
+            "text_snippet": "Explainable Artificial Intelligence” and “Psychological Foundations of Explainability and Interpretability in Artificial Intelligence” found here.) Transparency, explainability, an..."
+          },
+          {
+            "chunk_id": "small_chunk_0076",
+            "score": 0.5253,
+            "page": 46,
+            "pages": [
+              46,
+              47
+            ],
+            "text_snippet": "about the frequency and rationale with which humans overrule AI system output in deployed systems may be useful to collect and analyze. Page 41 Appendix D: Attributes of the AI RMF..."
+          },
+          {
+            "chunk_id": "small_chunk_0009",
+            "score": 0.4946,
+            "page": 7,
+            "pages": [
+              7,
+              8
+            ],
+            "text_snippet": "align the AI RMF and related guidance with applicable international standards, guidelines, and practices. As the AI RMF is put into use, additional lessons will be learned to infor..."
+          },
+          {
+            "chunk_id": "small_chunk_0005",
+            "score": 0.4931,
+            "page": 6,
+            "pages": [
+              6
+            ],
+            "text_snippet": "improve the conditions of our world. AI technologies, however, also pose risks that can negatively impact individuals, groups, organizations, communities, society, the environment,..."
+          }
+        ]
+      },
+      "large_chunk_results": {
+        "is_hit": false,
+        "hit_rank": null,
+        "mrr": 0.0,
+        "precision_at_5": 0.0,
+        "top_retrieved": [
+          {
+            "chunk_id": "large_chunk_0018",
+            "score": 0.5439,
+            "page": 22,
+            "pages": [
+              22,
+              23
+            ],
+            "text_snippet": "Explainable Artificial Intelligence” and “Psychological Foundations of Explainability and Interpretability in Artificial Intelligence” found here.) Transparency, explainability, an..."
+          },
+          {
+            "chunk_id": "large_chunk_0005",
+            "score": 0.4946,
+            "page": 7,
+            "pages": [
+              7,
+              8,
+              9
+            ],
+            "text_snippet": "align the AI RMF and related guidance with applicable international standards, guidelines, and practices. As the AI RMF is put into use, additional lessons will be learned to infor..."
+          },
+          {
+            "chunk_id": "large_chunk_0003",
+            "score": 0.4931,
+            "page": 6,
+            "pages": [
+              6,
+              7
+            ],
+            "text_snippet": "improve the conditions of our world. AI technologies, however, also pose risks that can negatively impact individuals, groups, organizations, communities, society, the environment,..."
+          },
+          {
+            "chunk_id": "large_chunk_0036",
+            "score": 0.4812,
+            "page": 44,
+            "pages": [
+              44,
+              45
+            ],
+            "text_snippet": "of AI systems. Privacy and cybersecurity risks are also considered as part of broader enterprise risk management considerations, which may incorporate AI risks. As part of the effo..."
+          },
+          {
+            "chunk_id": "large_chunk_0002",
+            "score": 0.4391,
+            "page": 4,
+            "pages": [
+              4,
+              5,
+              6
+            ],
+            "text_snippet": "RMF Core 20 5.1 Govern 21 5.2 Map 24 5.3 Measure 28 5.4 Manage 31 6 AI RMF Profiles 33 Appendix A: Descriptions of AI Actor Tasks from Figures 2 and 3 35 Appendix B: How AI Risks D..."
+          }
+        ]
+      },
+      "bm25_small_results": {
+        "is_hit": true,
+        "hit_rank": 1
+      },
+      "generated_answer": "Based on the retrieved source passages, ensure that AI systems are used as intended. 3.5 Explainable and Interpretable Explainability refers to a representation of the mechanisms underlying AI systems’ operation, whereas interpretability refers to the meaning of AI systems’ output in the context of their designed functional purposes. Together, explainability and interpretability assist those operating or overseeing an AI system, as well as users of an AI system, to gain deeper insights into the functionality and trustworthiness of the system, including its outputs. [Source: NIST_AI_RMF_1.0.pdf, Page 21].",
+      "llm_provider": "grounded_fallback"
+    },
+    {
+      "id": 5,
+      "type": "Synthesis of Information",
+      "question": "How does the MAP function provide the foundational basis for carrying out the MEASURE and MANAGE functions?",
+      "target_page": 30,
+      "correct_answer": "The MAP function establishes contextual understanding of the AI system, its actors, and potential impacts; without this contextual knowledge, measuring AI risks and managing or prioritizing treatments cannot be effectively performed.",
+      "exact_source_passage": "The information gathered while carrying out the MAP function enables negative risk prevention and informs decisions for mapping, measuring, and managing AI risks... Outcomes in the MAP function are the basis for the MEASURE and MANAGE functions. Without contextual knowledge of AI system risks, risk management is difficult to perform.",
+      "small_chunk_results": {
+        "is_hit": true,
+        "hit_rank": 4,
+        "mrr": 0.25,
+        "precision_at_5": 0.4,
+        "top_retrieved": [
+          {
+            "chunk_id": "small_chunk_0075",
+            "score": 0.466,
+            "page": 46,
+            "pages": [
+              46,
+              47
+            ],
+            "text_snippet": "decision-making processes more explicit, to help counter systemic biases. The MAP function suggests opportunities to define and document processes for operator and practitioner pro..."
+          },
+          {
+            "chunk_id": "small_chunk_0052",
+            "score": 0.4634,
+            "page": 32,
+            "pages": [
+              32,
+              33
+            ],
+            "text_snippet": "property or other rights. MAP 4.2: Internal risk controls for components of the AI system, including third-party AI technologies, are identified and documented. MAP 5: Impacts to i..."
+          },
+          {
+            "chunk_id": "small_chunk_0041",
+            "score": 0.461,
+            "page": 26,
+            "pages": [
+              26,
+              27
+            ],
+            "text_snippet": "others may choose and have the capacity to apply all categories and subcategories. Assuming a governance structure is in place, functions may be performed in any order across the A..."
+          },
+          {
+            "chunk_id": "small_chunk_0047",
+            "score": 0.4595,
+            "page": 29,
+            "pages": [
+              29,
+              30
+            ],
+            "text_snippet": "systems. For example, early decisions in identifying purposes and objectives of an AI system can alter its behavior and capabilities, and the dynamics of deployment setting (such a..."
+          },
+          {
+            "chunk_id": "small_chunk_0049",
+            "score": 0.4566,
+            "page": 30,
+            "pages": [
+              30,
+              31
+            ],
+            "text_snippet": "should utilize the MEASURE and MANAGE functions along with policies and procedures put into place in the GOVERN function to assist in AI risk management efforts. It is incumbent on..."
+          }
+        ]
+      },
+      "large_chunk_results": {
+        "is_hit": true,
+        "hit_rank": 3,
+        "mrr": 0.3333333333333333,
+        "precision_at_5": 0.4,
+        "top_retrieved": [
+          {
+            "chunk_id": "large_chunk_0038",
+            "score": 0.466,
+            "page": 46,
+            "pages": [
+              46,
+              47
+            ],
+            "text_snippet": "decision-making processes more explicit, to help counter systemic biases. The MAP function suggests opportunities to define and document processes for operator and practitioner pro..."
+          },
+          {
+            "chunk_id": "large_chunk_0021",
+            "score": 0.461,
+            "page": 26,
+            "pages": [
+              26,
+              27
+            ],
+            "text_snippet": "others may choose and have the capacity to apply all categories and subcategories. Assuming a governance structure is in place, functions may be performed in any order across the A..."
+          },
+          {
+            "chunk_id": "large_chunk_0024",
+            "score": 0.4595,
+            "page": 29,
+            "pages": [
+              29,
+              30,
+              31
+            ],
+            "text_snippet": "systems. For example, early decisions in identifying purposes and objectives of an AI system can alter its behavior and capabilities, and the dynamics of deployment setting (such a..."
+          },
+          {
+            "chunk_id": "large_chunk_0025",
+            "score": 0.4566,
+            "page": 30,
+            "pages": [
+              30,
+              31,
+              32
+            ],
+            "text_snippet": "should utilize the MEASURE and MANAGE functions along with policies and procedures put into place in the GOVERN function to assist in AI risk management efforts. It is incumbent on..."
+          },
+          {
+            "chunk_id": "large_chunk_0005",
+            "score": 0.3702,
+            "page": 7,
+            "pages": [
+              7,
+              8,
+              9
+            ],
+            "text_snippet": "align the AI RMF and related guidance with applicable international standards, guidelines, and practices. As the AI RMF is put into use, additional lessons will be learned to infor..."
+          }
+        ]
+      },
+      "bm25_small_results": {
+        "is_hit": true,
+        "hit_rank": 1
+      },
+      "generated_answer": "Based on the retrieved source passages, decision-making processes more explicit, to help counter systemic biases. The MAP function suggests opportunities to define and document processes for operator and practitioner proficiency with AI system performance and trustworthiness concepts, and to define relevant technical standards and certifications. Implementing MAP function categories and subcategories may help organizations improve their internal competency for analyzing context, identifying procedural and system limitations, exploring and examining impacts of AI-based systems in the real world, and evaluating decision-making processes throughout the AI lifecycle. [Source: NIST_AI_RMF_1.0.pdf, Page 46].",
+      "llm_provider": "grounded_fallback"
+    },
+    {
+      "id": 6,
+      "type": "Specific Terminology",
+      "question": "How does the AI RMF define 'risk tolerance' and does the Framework itself prescribe specific risk tolerance levels?",
+      "target_page": 12,
+      "correct_answer": "Risk tolerance refers to an organization's or AI actor's readiness to bear risk to achieve its objectives, and the AI RMF does not prescribe risk tolerance because it depends on specific organizational priorities, legal requirements, and context.",
+      "exact_source_passage": "While the AI RMF can be used to prioritize risk, it does not prescribe risk tolerance. Risk tolerance refers to the organization’s or AI actor’s (see Appendix A) readiness to bear the risk in order to achieve its objectives.",
+      "small_chunk_results": {
+        "is_hit": true,
+        "hit_rank": 1,
+        "mrr": 1.0,
+        "precision_at_5": 0.4,
+        "top_retrieved": [
+          {
+            "chunk_id": "small_chunk_0016",
+            "score": 0.7343,
+            "page": 11,
+            "pages": [
+              11,
+              12
+            ],
+            "text_snippet": "Risk management of AI systems that are intended to augment or replace human activity, for example decision making, requires some form of baseline metrics for comparison. This is di..."
+          },
+          {
+            "chunk_id": "small_chunk_0017",
+            "score": 0.658,
+            "page": 12,
+            "pages": [
+              12
+            ],
+            "text_snippet": "society. To the extent that challenges for specifying AI risk tolerances remain unresolved, there may be contexts where a risk management framework is not yet readily applicable fo..."
+          },
+          {
+            "chunk_id": "small_chunk_0077",
+            "score": 0.6314,
+            "page": 47,
+            "pages": [
+              47,
+              48
+            ],
+            "text_snippet": "with other aspects of risk management. Use of the Framework should be intuitive and readily adaptable as part of an organization’s broader risk management strategy and processes. I..."
+          },
+          {
+            "chunk_id": "small_chunk_0071",
+            "score": 0.6263,
+            "page": 44,
+            "pages": [
+              44
+            ],
+            "text_snippet": "of AI systems. Privacy and cybersecurity risks are also considered as part of broader enterprise risk management considerations, which may incorporate AI risks. As part of the effo..."
+          },
+          {
+            "chunk_id": "small_chunk_0001",
+            "score": 0.6125,
+            "page": 1,
+            "pages": [
+              1,
+              2,
+              3
+            ],
+            "text_snippet": "Artificial Intelligence Risk Management Framework (AI RMF 1.0) Artificial Intelligence Risk Management Framework (AI RMF 1.0) This publication is available free of charge from: htt..."
+          }
+        ]
+      },
+      "large_chunk_results": {
+        "is_hit": true,
+        "hit_rank": 1,
+        "mrr": 1.0,
+        "precision_at_5": 0.2,
+        "top_retrieved": [
+          {
+            "chunk_id": "large_chunk_0009",
+            "score": 0.658,
+            "page": 12,
+            "pages": [
+              12,
+              13
+            ],
+            "text_snippet": "society. To the extent that challenges for specifying AI risk tolerances remain unresolved, there may be contexts where a risk management framework is not yet readily applicable fo..."
+          },
+          {
+            "chunk_id": "large_chunk_0039",
+            "score": 0.6314,
+            "page": 47,
+            "pages": [
+              47,
+              48
+            ],
+            "text_snippet": "with other aspects of risk management. Use of the Framework should be intuitive and readily adaptable as part of an organization’s broader risk management strategy and processes. I..."
+          },
+          {
+            "chunk_id": "large_chunk_0036",
+            "score": 0.6263,
+            "page": 44,
+            "pages": [
+              44,
+              45
+            ],
+            "text_snippet": "of AI systems. Privacy and cybersecurity risks are also considered as part of broader enterprise risk management considerations, which may incorporate AI risks. As part of the effo..."
+          },
+          {
+            "chunk_id": "large_chunk_0001",
+            "score": 0.6125,
+            "page": 1,
+            "pages": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "text_snippet": "Artificial Intelligence Risk Management Framework (AI RMF 1.0) Artificial Intelligence Risk Management Framework (AI RMF 1.0) This publication is available free of charge from: htt..."
+          },
+          {
+            "chunk_id": "large_chunk_0005",
+            "score": 0.6118,
+            "page": 7,
+            "pages": [
+              7,
+              8,
+              9
+            ],
+            "text_snippet": "align the AI RMF and related guidance with applicable international standards, guidelines, and practices. As the AI RMF is put into use, additional lessons will be learned to infor..."
+          }
+        ]
+      },
+      "bm25_small_results": {
+        "is_hit": true,
+        "hit_rank": 1
+      },
+      "generated_answer": "Based on the retrieved source passages, Risk management of AI systems that are intended to augment or replace human activity, for example decision making, requires some form of baseline metrics for comparison. This is difficult to systematize since AI systems carry out different tasks – and perform tasks differently – than humans. Page 6 1.2.2 Risk Tolerance While the AI RMF can be used to prioritize risk, it does not prescribe risk tolerance. [Source: NIST_AI_RMF_1.0.pdf, Page 11].",
+      "llm_provider": "grounded_fallback"
+    },
+    {
+      "id": 7,
+      "type": "Specific Terminology",
+      "question": "What is 'negative residual risk' as defined in category MANAGE 1.4 of the AI RMF?",
+      "target_page": 37,
+      "correct_answer": "Negative residual risk is defined as the sum of all remaining negative risks after risk treatments have been applied.",
+      "exact_source_passage": "MANAGE 1.4: Negative residual risks (defined as the sum of all remaining negative risks after treatments have been applied) are evaluated and either tolerated, mitigated, or transferred, or the AI system is phased out.",
+      "small_chunk_results": {
+        "is_hit": true,
+        "hit_rank": 1,
+        "mrr": 1.0,
+        "precision_at_5": 0.2,
+        "top_retrieved": [
+          {
+            "chunk_id": "small_chunk_0059",
+            "score": 0.586,
+            "page": 36,
+            "pages": [
+              36,
+              37
+            ],
+            "text_snippet": "relevant AI actors evolve over time. Page 31 Practices related to managing AI risks are described in the NIST AI RMF Playbook. Table 4 lists the MANAGE function’s categories and su..."
+          },
+          {
+            "chunk_id": "small_chunk_0011",
+            "score": 0.5528,
+            "page": 9,
+            "pages": [
+              9
+            ],
+            "text_snippet": "lead to more trustworthy AI systems. 1.1 Understanding and Addressing Risks, Impacts, and Harms In the context of the AI RMF, risk refers to the composite measure of an event’s pro..."
+          },
+          {
+            "chunk_id": "small_chunk_0003",
+            "score": 0.5451,
+            "page": 4,
+            "pages": [
+              4,
+              5
+            ],
+            "text_snippet": "RMF Core 20 5.1 Govern 21 5.2 Map 24 5.3 Measure 28 5.4 Manage 31 6 AI RMF Profiles 33 Appendix A: Descriptions of AI Actor Tasks from Figures 2 and 3 35 Appendix B: How AI Risks D..."
+          },
+          {
+            "chunk_id": "small_chunk_0017",
+            "score": 0.5388,
+            "page": 12,
+            "pages": [
+              12
+            ],
+            "text_snippet": "society. To the extent that challenges for specifying AI risk tolerances remain unresolved, there may be contexts where a risk management framework is not yet readily applicable fo..."
+          },
+          {
+            "chunk_id": "small_chunk_0039",
+            "score": 0.5306,
+            "page": 24,
+            "pages": [
+              24,
+              25
+            ],
+            "text_snippet": "communities, organizations, and society; • better information sharing within and across organizations about risks, decisionmaking processes, responsibilities, common pitfalls, TEVV..."
+          }
+        ]
+      },
+      "large_chunk_results": {
+        "is_hit": true,
+        "hit_rank": 1,
+        "mrr": 1.0,
+        "precision_at_5": 0.2,
+        "top_retrieved": [
+          {
+            "chunk_id": "large_chunk_0030",
+            "score": 0.586,
+            "page": 36,
+            "pages": [
+              36,
+              37,
+              38
+            ],
+            "text_snippet": "relevant AI actors evolve over time. Page 31 Practices related to managing AI risks are described in the NIST AI RMF Playbook. Table 4 lists the MANAGE function’s categories and su..."
+          },
+          {
+            "chunk_id": "large_chunk_0006",
+            "score": 0.5528,
+            "page": 9,
+            "pages": [
+              9,
+              10
+            ],
+            "text_snippet": "lead to more trustworthy AI systems. 1.1 Understanding and Addressing Risks, Impacts, and Harms In the context of the AI RMF, risk refers to the composite measure of an event’s pro..."
+          },
+          {
+            "chunk_id": "large_chunk_0002",
+            "score": 0.5451,
+            "page": 4,
+            "pages": [
+              4,
+              5,
+              6
+            ],
+            "text_snippet": "RMF Core 20 5.1 Govern 21 5.2 Map 24 5.3 Measure 28 5.4 Manage 31 6 AI RMF Profiles 33 Appendix A: Descriptions of AI Actor Tasks from Figures 2 and 3 35 Appendix B: How AI Risks D..."
+          },
+          {
+            "chunk_id": "large_chunk_0009",
+            "score": 0.5388,
+            "page": 12,
+            "pages": [
+              12,
+              13
+            ],
+            "text_snippet": "society. To the extent that challenges for specifying AI risk tolerances remain unresolved, there may be contexts where a risk management framework is not yet readily applicable fo..."
+          },
+          {
+            "chunk_id": "large_chunk_0020",
+            "score": 0.5306,
+            "page": 24,
+            "pages": [
+              24,
+              25,
+              26
+            ],
+            "text_snippet": "communities, organizations, and society; • better information sharing within and across organizations about risks, decisionmaking processes, responsibilities, common pitfalls, TEVV..."
+          }
+        ]
+      },
+      "bm25_small_results": {
+        "is_hit": true,
+        "hit_rank": 1
+      },
+      "generated_answer": "Based on the retrieved source passages, relevant AI actors evolve over time. Page 31 Practices related to managing AI risks are described in the NIST AI RMF Playbook. Table 4 lists the MANAGE function’s categories and subcategories. [Source: NIST_AI_RMF_1.0.pdf, Page 36].",
+      "llm_provider": "grounded_fallback"
+    },
+    {
+      "id": 8,
+      "type": "Cross-Sectional / Multi-Section Synthesis",
+      "question": "How do the risks associated with AI systems differ from traditional software risks according to Appendix B?",
+      "target_page": 43,
+      "correct_answer": "AI risks differ because AI systems rely heavily on training data that may be non-representative or ungrounded, utilize opaque/black-box models, exhibit statistical non-determinism, face emergent failure modes, and incur massive computational and environmental costs.",
+      "exact_source_passage": "Compared to traditional software, AI-specific risks that are new or increased include the following: The data used for building an AI system may not be a true or appropriate representation of the context or intended use... Machine learning models are often opaque or black-box... High degree of statistical variance and non-determinism... Computational costs for developing AI systems and their impact on the environment.",
+      "small_chunk_results": {
+        "is_hit": true,
+        "hit_rank": 2,
+        "mrr": 0.5,
+        "precision_at_5": 0.2,
+        "top_retrieved": [
+          {
+            "chunk_id": "small_chunk_0015",
+            "score": 0.6886,
+            "page": 11,
+            "pages": [
+              11,
+              12
+            ],
+            "text_snippet": "the AI lifecycle may yield different results than measuring risk at a later stage; some risks may be latent at a given point in time and may increase as AI systems adapt and evolve..."
+          },
+          {
+            "chunk_id": "small_chunk_0068",
+            "score": 0.6806,
+            "page": 42,
+            "pages": [
+              42,
+              43
+            ],
+            "text_snippet": "system for specific purposes. These individuals or groups interact with an AI system in a specific context. End users can range in competency from AI experts to first-time technolo..."
+          },
+          {
+            "chunk_id": "small_chunk_0012",
+            "score": 0.6743,
+            "page": 9,
+            "pages": [
+              9,
+              10
+            ],
+            "text_snippet": "and systems/ecosystems. Risk management can enable AI developers and users to understand impacts and account for the inherent limitations and uncertainties in their models and syst..."
+          },
+          {
+            "chunk_id": "small_chunk_0005",
+            "score": 0.6729,
+            "page": 6,
+            "pages": [
+              6
+            ],
+            "text_snippet": "improve the conditions of our world. AI technologies, however, also pose risks that can negatively impact individuals, groups, organizations, communities, society, the environment,..."
+          },
+          {
+            "chunk_id": "small_chunk_0013",
+            "score": 0.6662,
+            "page": 10,
+            "pages": [
+              10,
+              11
+            ],
+            "text_snippet": "described below. They should be taken into account when managing risks in pursuit of AI trustworthiness. 1.2.1 Risk Measurement AI risks or failures that are not well-defined or ad..."
+          }
+        ]
+      },
+      "large_chunk_results": {
+        "is_hit": true,
+        "hit_rank": 5,
+        "mrr": 0.2,
+        "precision_at_5": 0.2,
+        "top_retrieved": [
+          {
+            "chunk_id": "large_chunk_0008",
+            "score": 0.6886,
+            "page": 11,
+            "pages": [
+              11,
+              12
+            ],
+            "text_snippet": "the AI lifecycle may yield different results than measuring risk at a later stage; some risks may be latent at a given point in time and may increase as AI systems adapt and evolve..."
+          },
+          {
+            "chunk_id": "large_chunk_0003",
+            "score": 0.6729,
+            "page": 6,
+            "pages": [
+              6,
+              7
+            ],
+            "text_snippet": "improve the conditions of our world. AI technologies, however, also pose risks that can negatively impact individuals, groups, organizations, communities, society, the environment,..."
+          },
+          {
+            "chunk_id": "large_chunk_0007",
+            "score": 0.6662,
+            "page": 10,
+            "pages": [
+              10,
+              11
+            ],
+            "text_snippet": "described below. They should be taken into account when managing risks in pursuit of AI trustworthiness. 1.2.1 Risk Measurement AI risks or failures that are not well-defined or ad..."
+          },
+          {
+            "chunk_id": "large_chunk_0010",
+            "score": 0.6309,
+            "page": 13,
+            "pages": [
+              13,
+              14
+            ],
+            "text_snippet": "compared to AI systems that are not. Higher initial prioritization may be called for in settings where the AI system is trained on large datasets comprised of sensitive or protecte..."
+          },
+          {
+            "chunk_id": "large_chunk_0035",
+            "score": 0.6261,
+            "page": 43,
+            "pages": [
+              43,
+              44
+            ],
+            "text_snippet": "frameworks and approaches. Some AI system features that present risks also can be beneficial. For example, pre-trained models and transfer learning can advance research and increas..."
+          }
+        ]
+      },
+      "bm25_small_results": {
+        "is_hit": true,
+        "hit_rank": 1
+      },
+      "generated_answer": "Based on the retrieved source passages, the AI lifecycle may yield different results than measuring risk at a later stage; some risks may be latent at a given point in time and may increase as AI systems adapt and evolve. Furthermore, different AI actors across the AI lifecycle can have different risk perspectives. For example, an AI developer who makes AI software available, such as pre-trained models, can have a different risk perspective than an AI actor who is responsible for deploying that pre-trained model in a specific use case. [Source: NIST_AI_RMF_1.0.pdf, Page 11].",
+      "llm_provider": "grounded_fallback"
+    },
+    {
+      "id": 9,
+      "type": "Direct Factual",
+      "question": "What are the seven key characteristics of trustworthy AI systems identified in Section 3 of the NIST AI RMF?",
+      "target_page": 17,
+      "correct_answer": "The seven characteristics are: 1) Valid and Reliable, 2) Safe, 3) Secure and Resilient, 4) Accountable and Transparent, 5) Explainable and Interpretable, 6) Privacy-Enhanced, and 7) Fair – with Harmful Bias Managed.",
+      "exact_source_passage": "Characteristics of trustworthy AI systems include: valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed.",
+      "small_chunk_results": {
+        "is_hit": true,
+        "hit_rank": 2,
+        "mrr": 0.5,
+        "precision_at_5": 0.2,
+        "top_retrieved": [
+          {
+            "chunk_id": "small_chunk_0009",
+            "score": 0.7398,
+            "page": 7,
+            "pages": [
+              7,
+              8
+            ],
+            "text_snippet": "align the AI RMF and related guidance with applicable international standards, guidelines, and practices. As the AI RMF is put into use, additional lessons will be learned to infor..."
+          },
+          {
+            "chunk_id": "small_chunk_0024",
+            "score": 0.7003,
+            "page": 15,
+            "pages": [
+              15,
+              16,
+              17
+            ],
+            "text_snippet": "these implicit aspects more explicit. This broader collective perspective creates opportunities for surfacing problems and identifying existing and emergent risks. Page 10 Fig. 3. ..."
+          },
+          {
+            "chunk_id": "small_chunk_0038",
+            "score": 0.6815,
+            "page": 23,
+            "pages": [
+              23,
+              24
+            ],
+            "text_snippet": "for Identifying and Managing Bias in Artificial Intelligence.) Page 18 4. Effectiveness of the AI RMF Evaluations of AI RMF effectiveness – including ways to measure bottom-line im..."
+          },
+          {
+            "chunk_id": "small_chunk_0004",
+            "score": 0.68,
+            "page": 5,
+            "pages": [
+              5,
+              6
+            ],
+            "text_snippet": "performed throughout the AI system lifecycle. See Figure 3 for representative AI actors. 10 Fig. 3 AI actors across AI lifecycle stages. See Appendix A for detailed descriptions of..."
+          },
+          {
+            "chunk_id": "small_chunk_0071",
+            "score": 0.6763,
+            "page": 44,
+            "pages": [
+              44
+            ],
+            "text_snippet": "of AI systems. Privacy and cybersecurity risks are also considered as part of broader enterprise risk management considerations, which may incorporate AI risks. As part of the effo..."
+          }
+        ]
+      },
+      "large_chunk_results": {
+        "is_hit": true,
+        "hit_rank": 4,
+        "mrr": 0.25,
+        "precision_at_5": 0.2,
+        "top_retrieved": [
+          {
+            "chunk_id": "large_chunk_0005",
+            "score": 0.7398,
+            "page": 7,
+            "pages": [
+              7,
+              8,
+              9
+            ],
+            "text_snippet": "align the AI RMF and related guidance with applicable international standards, guidelines, and practices. As the AI RMF is put into use, additional lessons will be learned to infor..."
+          },
+          {
+            "chunk_id": "large_chunk_0036",
+            "score": 0.6763,
+            "page": 44,
+            "pages": [
+              44,
+              45
+            ],
+            "text_snippet": "of AI systems. Privacy and cybersecurity risks are also considered as part of broader enterprise risk management considerations, which may incorporate AI risks. As part of the effo..."
+          },
+          {
+            "chunk_id": "large_chunk_0003",
+            "score": 0.6709,
+            "page": 6,
+            "pages": [
+              6,
+              7
+            ],
+            "text_snippet": "improve the conditions of our world. AI technologies, however, also pose risks that can negatively impact individuals, groups, organizations, communities, society, the environment,..."
+          },
+          {
+            "chunk_id": "large_chunk_0013",
+            "score": 0.667,
+            "page": 17,
+            "pages": [
+              17,
+              18
+            ],
+            "text_snippet": "AI system and its external setting. Neglecting these characteristics can increase the probability and magnitude of negative consequences. Fig. 4. Characteristics of trustworthy AI ..."
+          },
+          {
+            "chunk_id": "large_chunk_0002",
+            "score": 0.6593,
+            "page": 4,
+            "pages": [
+              4,
+              5,
+              6
+            ],
+            "text_snippet": "RMF Core 20 5.1 Govern 21 5.2 Map 24 5.3 Measure 28 5.4 Manage 31 6 AI RMF Profiles 33 Appendix A: Descriptions of AI Actor Tasks from Figures 2 and 3 35 Appendix B: How AI Risks D..."
+          }
+        ]
+      },
+      "bm25_small_results": {
+        "is_hit": false,
+        "hit_rank": null
+      },
+      "generated_answer": "Based on the retrieved source passages, align the AI RMF and related guidance with applicable international standards, guidelines, and practices. As the AI RMF is put into use, additional lessons will be learned to inform future updates and additional resources. The Framework is divided into two parts. [Source: NIST_AI_RMF_1.0.pdf, Page 7].",
+      "llm_provider": "grounded_fallback"
+    },
+    {
+      "id": 10,
+      "type": "Understanding",
+      "question": "What are the three potential levels or categories of harm resulting from AI systems illustrated in Figure 1?",
+      "target_page": 10,
+      "correct_answer": "The three potential levels of harm are harm to people (individuals and groups), harm to an organization, and harm to ecosystems (society, environment, and global infrastructure).",
+      "exact_source_passage": "Fig. 1. Examples of potential harms related to AI systems. Trustworthy AI systems and their responsible use can mitigate negative risks and contribute to benefits for people, organizations, and ecosystems.",
+      "small_chunk_results": {
+        "is_hit": false,
+        "hit_rank": null,
+        "mrr": 0.0,
+        "precision_at_5": 0.0,
+        "top_retrieved": [
+          {
+            "chunk_id": "small_chunk_0046",
+            "score": 0.6476,
+            "page": 29,
+            "pages": [
+              29
+            ],
+            "text_snippet": "AI system regarding the potential individual and societal impacts related to AI risks. GOVERN 5.2: Mechanisms are established to enable the team that developed or deployed AI syste..."
+          },
+          {
+            "chunk_id": "small_chunk_0052",
+            "score": 0.6068,
+            "page": 32,
+            "pages": [
+              32,
+              33
+            ],
+            "text_snippet": "property or other rights. MAP 4.2: Internal risk controls for components of the AI system, including third-party AI technologies, are identified and documented. MAP 5: Impacts to i..."
+          },
+          {
+            "chunk_id": "small_chunk_0003",
+            "score": 0.6039,
+            "page": 4,
+            "pages": [
+              4,
+              5
+            ],
+            "text_snippet": "RMF Core 20 5.1 Govern 21 5.2 Map 24 5.3 Measure 28 5.4 Manage 31 6 AI RMF Profiles 33 Appendix A: Descriptions of AI Actor Tasks from Figures 2 and 3 35 Appendix B: How AI Risks D..."
+          },
+          {
+            "chunk_id": "small_chunk_0005",
+            "score": 0.5977,
+            "page": 6,
+            "pages": [
+              6
+            ],
+            "text_snippet": "improve the conditions of our world. AI technologies, however, also pose risks that can negatively impact individuals, groups, organizations, communities, society, the environment,..."
+          },
+          {
+            "chunk_id": "small_chunk_0068",
+            "score": 0.5874,
+            "page": 42,
+            "pages": [
+              42,
+              43
+            ],
+            "text_snippet": "system for specific purposes. These individuals or groups interact with an AI system in a specific context. End users can range in competency from AI experts to first-time technolo..."
+          }
+        ]
+      },
+      "large_chunk_results": {
+        "is_hit": true,
+        "hit_rank": 4,
+        "mrr": 0.25,
+        "precision_at_5": 0.2,
+        "top_retrieved": [
+          {
+            "chunk_id": "large_chunk_0002",
+            "score": 0.6039,
+            "page": 4,
+            "pages": [
+              4,
+              5,
+              6
+            ],
+            "text_snippet": "RMF Core 20 5.1 Govern 21 5.2 Map 24 5.3 Measure 28 5.4 Manage 31 6 AI RMF Profiles 33 Appendix A: Descriptions of AI Actor Tasks from Figures 2 and 3 35 Appendix B: How AI Risks D..."
+          },
+          {
+            "chunk_id": "large_chunk_0003",
+            "score": 0.5977,
+            "page": 6,
+            "pages": [
+              6,
+              7
+            ],
+            "text_snippet": "improve the conditions of our world. AI technologies, however, also pose risks that can negatively impact individuals, groups, organizations, communities, society, the environment,..."
+          },
+          {
+            "chunk_id": "large_chunk_0023",
+            "score": 0.5779,
+            "page": 28,
+            "pages": [
+              28,
+              29,
+              30
+            ],
+            "text_snippet": "related to mapping, measuring, and managing AI risks throughout the lifecycle is informed by a diverse team (e.g., diversity of demographics, disciplines, experience, expertise, an..."
+          },
+          {
+            "chunk_id": "large_chunk_0006",
+            "score": 0.5668,
+            "page": 9,
+            "pages": [
+              9,
+              10
+            ],
+            "text_snippet": "lead to more trustworthy AI systems. 1.1 Understanding and Addressing Risks, Impacts, and Harms In the context of the AI RMF, risk refers to the composite measure of an event’s pro..."
+          },
+          {
+            "chunk_id": "large_chunk_0035",
+            "score": 0.5573,
+            "page": 43,
+            "pages": [
+              43,
+              44
+            ],
+            "text_snippet": "frameworks and approaches. Some AI system features that present risks also can be beneficial. For example, pre-trained models and transfer learning can advance research and increas..."
+          }
+        ]
+      },
+      "bm25_small_results": {
+        "is_hit": false,
+        "hit_rank": null
+      },
+      "generated_answer": "Based on the retrieved source passages, RMF Core 20 5.1 Govern 21 5.2 Map 24 5.3 Measure 28 5.4 Manage 31 6 AI RMF Profiles 33 Appendix A: Descriptions of AI Actor Tasks from Figures 2 and 3 35 Appendix B: How AI Risks Differ from Traditional Software Risks 38 Appendix C: AI Risk Management and Human-AI Interaction 40 Appendix D: Attributes of the AI RMF 42 List of Tables Table 1 Categories and subcategories for the GOVERN function. 22 Table 2 Categories and subcategories for the MAP function. 26 Table 3 Categories and subcategories for the MEASURE function. [Source: NIST_AI_RMF_1.0.pdf, Page 4].",
+      "llm_provider": "grounded_fallback"
+    },
+    {
+      "id": 11,
+      "type": "Understanding",
+      "question": "What is the primary role and methodological approach of the MEASURE function within the AI RMF Core?",
+      "target_page": 33,
+      "correct_answer": "The MEASURE function employs quantitative, qualitative, or mixed-method tools, techniques, and methodologies to analyze, assess, benchmark, and monitor AI risk and related impacts.",
+      "exact_source_passage": "The MEASURE function employs quantitative, qualitative, or mixed-method tools, techniques, and methodologies to analyze, assess, benchmark, and monitor AI risk and related impacts. It uses knowledge relevant to AI risks identified in the MAP function and informs the MANAGE function.",
+      "small_chunk_results": {
+        "is_hit": false,
+        "hit_rank": null,
+        "mrr": 0.0,
+        "precision_at_5": 0.0,
+        "top_retrieved": [
+          {
+            "chunk_id": "small_chunk_0003",
+            "score": 0.5699,
+            "page": 4,
+            "pages": [
+              4,
+              5
+            ],
+            "text_snippet": "RMF Core 20 5.1 Govern 21 5.2 Map 24 5.3 Measure 28 5.4 Manage 31 6 AI RMF Profiles 33 Appendix A: Descriptions of AI Actor Tasks from Figures 2 and 3 35 Appendix B: How AI Risks D..."
+          },
+          {
+            "chunk_id": "small_chunk_0039",
+            "score": 0.5652,
+            "page": 24,
+            "pages": [
+              24,
+              25
+            ],
+            "text_snippet": "communities, organizations, and society; • better information sharing within and across organizations about risks, decisionmaking processes, responsibilities, common pitfalls, TEVV..."
+          },
+          {
+            "chunk_id": "small_chunk_0061",
+            "score": 0.5557,
+            "page": 38,
+            "pages": [
+              38
+            ],
+            "text_snippet": "and override, decommissioning, incident response, recovery, and change management. MANAGE 4.2: Measurable activities for continual improvements are integrated into AI system update..."
+          },
+          {
+            "chunk_id": "small_chunk_0076",
+            "score": 0.5494,
+            "page": 46,
+            "pages": [
+              46,
+              47
+            ],
+            "text_snippet": "about the frequency and rationale with which humans overrule AI system output in deployed systems may be useful to collect and analyze. Page 41 Appendix D: Attributes of the AI RMF..."
+          },
+          {
+            "chunk_id": "small_chunk_0009",
+            "score": 0.5432,
+            "page": 7,
+            "pages": [
+              7,
+              8
+            ],
+            "text_snippet": "align the AI RMF and related guidance with applicable international standards, guidelines, and practices. As the AI RMF is put into use, additional lessons will be learned to infor..."
+          }
+        ]
+      },
+      "large_chunk_results": {
+        "is_hit": false,
+        "hit_rank": null,
+        "mrr": 0.0,
+        "precision_at_5": 0.0,
+        "top_retrieved": [
+          {
+            "chunk_id": "large_chunk_0002",
+            "score": 0.5699,
+            "page": 4,
+            "pages": [
+              4,
+              5,
+              6
+            ],
+            "text_snippet": "RMF Core 20 5.1 Govern 21 5.2 Map 24 5.3 Measure 28 5.4 Manage 31 6 AI RMF Profiles 33 Appendix A: Descriptions of AI Actor Tasks from Figures 2 and 3 35 Appendix B: How AI Risks D..."
+          },
+          {
+            "chunk_id": "large_chunk_0020",
+            "score": 0.5652,
+            "page": 24,
+            "pages": [
+              24,
+              25,
+              26
+            ],
+            "text_snippet": "communities, organizations, and society; • better information sharing within and across organizations about risks, decisionmaking processes, responsibilities, common pitfalls, TEVV..."
+          },
+          {
+            "chunk_id": "large_chunk_0031",
+            "score": 0.5557,
+            "page": 38,
+            "pages": [
+              38,
+              39,
+              40
+            ],
+            "text_snippet": "and override, decommissioning, incident response, recovery, and change management. MANAGE 4.2: Measurable activities for continual improvements are integrated into AI system update..."
+          },
+          {
+            "chunk_id": "large_chunk_0005",
+            "score": 0.5432,
+            "page": 7,
+            "pages": [
+              7,
+              8,
+              9
+            ],
+            "text_snippet": "align the AI RMF and related guidance with applicable international standards, guidelines, and practices. As the AI RMF is put into use, additional lessons will be learned to infor..."
+          },
+          {
+            "chunk_id": "large_chunk_0001",
+            "score": 0.5142,
+            "page": 1,
+            "pages": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "text_snippet": "Artificial Intelligence Risk Management Framework (AI RMF 1.0) Artificial Intelligence Risk Management Framework (AI RMF 1.0) This publication is available free of charge from: htt..."
+          }
+        ]
+      },
+      "bm25_small_results": {
+        "is_hit": false,
+        "hit_rank": null
+      },
+      "generated_answer": "Based on the retrieved source passages, RMF Core 20 5.1 Govern 21 5.2 Map 24 5.3 Measure 28 5.4 Manage 31 6 AI RMF Profiles 33 Appendix A: Descriptions of AI Actor Tasks from Figures 2 and 3 35 Appendix B: How AI Risks Differ from Traditional Software Risks 38 Appendix C: AI Risk Management and Human-AI Interaction 40 Appendix D: Attributes of the AI RMF 42 List of Tables Table 1 Categories and subcategories for the GOVERN function. 22 Table 2 Categories and subcategories for the MAP function. 26 Table 3 Categories and subcategories for the MEASURE function. [Source: NIST_AI_RMF_1.0.pdf, Page 4].",
+      "llm_provider": "grounded_fallback"
+    },
+    {
+      "id": 12,
+      "type": "Specific Terminology",
+      "question": "What are AI RMF Profiles as described in Section 6, and what is the difference between use-case and temporal profiles?",
+      "target_page": 38,
+      "correct_answer": "AI RMF Profiles are implementations of Core functions, categories, and subcategories for specific applications or settings; use-case profiles address specific sectors (e.g. hiring, fair housing), while temporal profiles compare current state vs desired target state to reveal gaps.",
+      "exact_source_passage": "AI RMF use-case profiles are implementations of the AI RMF functions, categories, and subcategories for a specific setting or application based on the requirements, risk tolerance, and resources of the Framework user... AI RMF temporal profiles are descriptions of either the current state or the desired, target state.",
+      "small_chunk_results": {
+        "is_hit": true,
+        "hit_rank": 1,
+        "mrr": 1.0,
+        "precision_at_5": 0.4,
+        "top_retrieved": [
+          {
+            "chunk_id": "small_chunk_0061",
+            "score": 0.7651,
+            "page": 38,
+            "pages": [
+              38
+            ],
+            "text_snippet": "and override, decommissioning, incident response, recovery, and change management. MANAGE 4.2: Measurable activities for continual improvements are integrated into AI system update..."
+          },
+          {
+            "chunk_id": "small_chunk_0062",
+            "score": 0.6483,
+            "page": 38,
+            "pages": [
+              38,
+              39,
+              40
+            ],
+            "text_snippet": "or application context. An AI RMF Current Profile indicates how AI is currently being managed and the related risks in terms of current outcomes. A Target Profile indicates the out..."
+          },
+          {
+            "chunk_id": "small_chunk_0003",
+            "score": 0.5881,
+            "page": 4,
+            "pages": [
+              4,
+              5
+            ],
+            "text_snippet": "RMF Core 20 5.1 Govern 21 5.2 Map 24 5.3 Measure 28 5.4 Manage 31 6 AI RMF Profiles 33 Appendix A: Descriptions of AI Actor Tasks from Figures 2 and 3 35 Appendix B: How AI Risks D..."
+          },
+          {
+            "chunk_id": "small_chunk_0002",
+            "score": 0.55,
+            "page": 3,
+            "pages": [
+              3,
+              4
+            ],
+            "text_snippet": "the generation of the AI RMF and its companion documents (e.g., 1.0) and will change only with major revisions. Minor revisions will be tracked using “.n” after the generation numb..."
+          },
+          {
+            "chunk_id": "small_chunk_0009",
+            "score": 0.5306,
+            "page": 7,
+            "pages": [
+              7,
+              8
+            ],
+            "text_snippet": "align the AI RMF and related guidance with applicable international standards, guidelines, and practices. As the AI RMF is put into use, additional lessons will be learned to infor..."
+          }
+        ]
+      },
+      "large_chunk_results": {
+        "is_hit": true,
+        "hit_rank": 1,
+        "mrr": 1.0,
+        "precision_at_5": 0.2,
+        "top_retrieved": [
+          {
+            "chunk_id": "large_chunk_0031",
+            "score": 0.7651,
+            "page": 38,
+            "pages": [
+              38,
+              39,
+              40
+            ],
+            "text_snippet": "and override, decommissioning, incident response, recovery, and change management. MANAGE 4.2: Measurable activities for continual improvements are integrated into AI system update..."
+          },
+          {
+            "chunk_id": "large_chunk_0002",
+            "score": 0.5881,
+            "page": 4,
+            "pages": [
+              4,
+              5,
+              6
+            ],
+            "text_snippet": "RMF Core 20 5.1 Govern 21 5.2 Map 24 5.3 Measure 28 5.4 Manage 31 6 AI RMF Profiles 33 Appendix A: Descriptions of AI Actor Tasks from Figures 2 and 3 35 Appendix B: How AI Risks D..."
+          },
+          {
+            "chunk_id": "large_chunk_0005",
+            "score": 0.5306,
+            "page": 7,
+            "pages": [
+              7,
+              8,
+              9
+            ],
+            "text_snippet": "align the AI RMF and related guidance with applicable international standards, guidelines, and practices. As the AI RMF is put into use, additional lessons will be learned to infor..."
+          },
+          {
+            "chunk_id": "large_chunk_0036",
+            "score": 0.5217,
+            "page": 44,
+            "pages": [
+              44,
+              45
+            ],
+            "text_snippet": "of AI systems. Privacy and cybersecurity risks are also considered as part of broader enterprise risk management considerations, which may incorporate AI risks. As part of the effo..."
+          },
+          {
+            "chunk_id": "large_chunk_0011",
+            "score": 0.5179,
+            "page": 14,
+            "pages": [
+              14,
+              15
+            ],
+            "text_snippet": "organization or industry. In addition, small to medium-sized organizations managing AI risks or implementing the AI RMF may face different challenges than large organizations, depe..."
+          }
+        ]
+      },
+      "bm25_small_results": {
+        "is_hit": true,
+        "hit_rank": 1
+      },
+      "generated_answer": "Based on the retrieved source passages, and override, decommissioning, incident response, recovery, and change management. MANAGE 4.2: Measurable activities for continual improvements are integrated into AI system updates and include regular engagement with interested parties, including relevant AI actors. MANAGE 4.3: Incidents and errors are communicated to relevant AI actors, including affected communities. [Source: NIST_AI_RMF_1.0.pdf, Page 38].",
+      "llm_provider": "grounded_fallback"
+    },
+    {
+      "id": 13,
+      "type": "Synthesis of Information",
+      "question": "How are third-party resources and pre-trained models managed under the MANAGE function (MANAGE 3)?",
+      "target_page": 37,
+      "correct_answer": "Under MANAGE 3, AI risks and benefits from third-party resources are identified and managed, and pre-trained models used for development are assessed for inherited risks and vulnerabilities.",
+      "exact_source_passage": "MANAGE 3: AI risks and benefits from third-party resources are identified and managed. MANAGE 3.1: AI risks and benefits from third-party resources are regularly monitored and managed. MANAGE 3.2: Pre-trained models which are used for development are assessed for risk.",
+      "small_chunk_results": {
+        "is_hit": true,
+        "hit_rank": 1,
+        "mrr": 1.0,
+        "precision_at_5": 0.4,
+        "top_retrieved": [
+          {
+            "chunk_id": "small_chunk_0060",
+            "score": 0.498,
+            "page": 37,
+            "pages": [
+              37,
+              38
+            ],
+            "text_snippet": "– along with viable non-AI alternative systems, approaches, or methods – to reduce the magnitude or likelihood of potential impacts. MANAGE 2.2: Mechanisms are in place and applied..."
+          },
+          {
+            "chunk_id": "small_chunk_0067",
+            "score": 0.4501,
+            "page": 41,
+            "pages": [
+              41,
+              42
+            ],
+            "text_snippet": "legal expertise. Procurement tasks are conducted by AI actors with financial, legal, or policy management authority for acquisition of AI models, products, or services from a third..."
+          },
+          {
+            "chunk_id": "small_chunk_0059",
+            "score": 0.3731,
+            "page": 36,
+            "pages": [
+              36,
+              37
+            ],
+            "text_snippet": "relevant AI actors evolve over time. Page 31 Practices related to managing AI risks are described in the NIST AI RMF Playbook. Table 4 lists the MANAGE function’s categories and su..."
+          },
+          {
+            "chunk_id": "small_chunk_0042",
+            "score": 0.356,
+            "page": 26,
+            "pages": [
+              26,
+              27
+            ],
+            "text_snippet": "and principles, and enables organizational practices and competencies for the individuals involved in acquiring, training, deploying, and monitoring such systems; and • addresses f..."
+          },
+          {
+            "chunk_id": "small_chunk_0040",
+            "score": 0.3559,
+            "page": 25,
+            "pages": [
+              25,
+              26
+            ],
+            "text_snippet": "RMF Core functions should be carried out in a way that reflects diverse and multidisciplinary perspectives, potentially including the views of AI actors outside the organization. H..."
+          }
+        ]
+      },
+      "large_chunk_results": {
+        "is_hit": true,
+        "hit_rank": 2,
+        "mrr": 0.5,
+        "precision_at_5": 0.2,
+        "top_retrieved": [
+          {
+            "chunk_id": "large_chunk_0034",
+            "score": 0.4501,
+            "page": 41,
+            "pages": [
+              41,
+              42,
+              43
+            ],
+            "text_snippet": "legal expertise. Procurement tasks are conducted by AI actors with financial, legal, or policy management authority for acquisition of AI models, products, or services from a third..."
+          },
+          {
+            "chunk_id": "large_chunk_0030",
+            "score": 0.3731,
+            "page": 36,
+            "pages": [
+              36,
+              37,
+              38
+            ],
+            "text_snippet": "relevant AI actors evolve over time. Page 31 Practices related to managing AI risks are described in the NIST AI RMF Playbook. Table 4 lists the MANAGE function’s categories and su..."
+          },
+          {
+            "chunk_id": "large_chunk_0021",
+            "score": 0.3477,
+            "page": 26,
+            "pages": [
+              26,
+              27
+            ],
+            "text_snippet": "others may choose and have the capacity to apply all categories and subcategories. Assuming a governance structure is in place, functions may be performed in any order across the A..."
+          },
+          {
+            "chunk_id": "large_chunk_0005",
+            "score": 0.3438,
+            "page": 7,
+            "pages": [
+              7,
+              8,
+              9
+            ],
+            "text_snippet": "align the AI RMF and related guidance with applicable international standards, guidelines, and practices. As the AI RMF is put into use, additional lessons will be learned to infor..."
+          },
+          {
+            "chunk_id": "large_chunk_0032",
+            "score": 0.3367,
+            "page": 40,
+            "pages": [
+              40,
+              41
+            ],
+            "text_snippet": "Figures 2 and 3 AI Design tasks are performed during the Application Context and Data and Input phases of the AI lifecycle in Figure 2. AI Design actors create the concept and obje..."
+          }
+        ]
+      },
+      "bm25_small_results": {
+        "is_hit": true,
+        "hit_rank": 1
+      },
+      "generated_answer": "Based on the retrieved source passages, – along with viable non-AI alternative systems, approaches, or methods – to reduce the magnitude or likelihood of potential impacts. MANAGE 2.2: Mechanisms are in place and applied to sustain the value of deployed AI systems. MANAGE 2.3: Procedures are followed to respond to and recover from a previously unknown risk when it is identified. [Source: NIST_AI_RMF_1.0.pdf, Page 37].",
+      "llm_provider": "grounded_fallback"
+    },
+    {
+      "id": 14,
+      "type": "Direct Factual / Nuanced Understanding",
+      "question": "Does the NIST AI RMF state that bias is always a negative phenomenon?",
+      "target_page": 23,
+      "correct_answer": "No, the AI RMF states that bias is not always a negative phenomenon; however, AI systems can increase the speed and scale of biases and amplify harms to individuals, communities, and society.",
+      "exact_source_passage": "While bias is not always a negative phenomenon, AI systems can potentially increase the speed and scale of biases and perpetuate and amplify harms to individuals, groups, communities, organizations, and society.",
+      "small_chunk_results": {
+        "is_hit": true,
+        "hit_rank": 1,
+        "mrr": 1.0,
+        "precision_at_5": 0.6,
+        "top_retrieved": [
+          {
+            "chunk_id": "small_chunk_0037",
+            "score": 0.4852,
+            "page": 23,
+            "pages": [
+              23,
+              24
+            ],
+            "text_snippet": "can occur in the absence of prejudice, partiality, or discriminatory intent. Systemic bias can be present in AI datasets, the organizational norms, practices, and processes across ..."
+          },
+          {
+            "chunk_id": "small_chunk_0038",
+            "score": 0.4578,
+            "page": 23,
+            "pages": [
+              23,
+              24
+            ],
+            "text_snippet": "for Identifying and Managing Bias in Artificial Intelligence.) Page 18 4. Effectiveness of the AI RMF Evaluations of AI RMF effectiveness – including ways to measure bottom-line im..."
+          },
+          {
+            "chunk_id": "small_chunk_0002",
+            "score": 0.395,
+            "page": 3,
+            "pages": [
+              3,
+              4
+            ],
+            "text_snippet": "the generation of the AI RMF and its companion documents (e.g., 1.0) and will change only with major revisions. Minor revisions will be tracked using “.n” after the generation numb..."
+          },
+          {
+            "chunk_id": "small_chunk_0010",
+            "score": 0.3633,
+            "page": 8,
+            "pages": [
+              8,
+              9
+            ],
+            "text_snippet": "AI RMF by NIST in collaboration with the private and public sectors is directed and consistent with its broader AI efforts called for by the National AI Initiative Act of 2020, the..."
+          },
+          {
+            "chunk_id": "small_chunk_0036",
+            "score": 0.3594,
+            "page": 22,
+            "pages": [
+              22,
+              23
+            ],
+            "text_snippet": "individuals or previously private information about individuals. Privacy-enhancing technologies (“PETs”) for AI, as well as data minimizing methods such as de-identification and ag..."
+          }
+        ]
+      },
+      "large_chunk_results": {
+        "is_hit": true,
+        "hit_rank": 1,
+        "mrr": 1.0,
+        "precision_at_5": 0.2,
+        "top_retrieved": [
+          {
+            "chunk_id": "large_chunk_0019",
+            "score": 0.4852,
+            "page": 23,
+            "pages": [
+              23,
+              24,
+              25
+            ],
+            "text_snippet": "can occur in the absence of prejudice, partiality, or discriminatory intent. Systemic bias can be present in AI datasets, the organizational norms, practices, and processes across ..."
+          },
+          {
+            "chunk_id": "large_chunk_0001",
+            "score": 0.3393,
+            "page": 1,
+            "pages": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "text_snippet": "Artificial Intelligence Risk Management Framework (AI RMF 1.0) Artificial Intelligence Risk Management Framework (AI RMF 1.0) This publication is available free of charge from: htt..."
+          },
+          {
+            "chunk_id": "large_chunk_0006",
+            "score": 0.3325,
+            "page": 9,
+            "pages": [
+              9,
+              10
+            ],
+            "text_snippet": "lead to more trustworthy AI systems. 1.1 Understanding and Addressing Risks, Impacts, and Harms In the context of the AI RMF, risk refers to the composite measure of an event’s pro..."
+          },
+          {
+            "chunk_id": "large_chunk_0036",
+            "score": 0.3297,
+            "page": 44,
+            "pages": [
+              44,
+              45
+            ],
+            "text_snippet": "of AI systems. Privacy and cybersecurity risks are also considered as part of broader enterprise risk management considerations, which may incorporate AI risks. As part of the effo..."
+          },
+          {
+            "chunk_id": "large_chunk_0003",
+            "score": 0.3219,
+            "page": 6,
+            "pages": [
+              6,
+              7
+            ],
+            "text_snippet": "improve the conditions of our world. AI technologies, however, also pose risks that can negatively impact individuals, groups, organizations, communities, society, the environment,..."
+          }
+        ]
+      },
+      "bm25_small_results": {
+        "is_hit": true,
+        "hit_rank": 1
+      },
+      "generated_answer": "Based on the retrieved source passages, can occur in the absence of prejudice, partiality, or discriminatory intent. Systemic bias can be present in AI datasets, the organizational norms, practices, and processes across the AI lifecycle, and the broader society that uses AI systems. Computational and statistical biases can be present in AI datasets and algorithmic processes, and often stem from systematic errors due to non-representative samples. [Source: NIST_AI_RMF_1.0.pdf, Page 23].",
+      "llm_provider": "grounded_fallback"
+    },
+    {
+      "id": 15,
+      "type": "Specific Terminology / Attributes",
+      "question": "What key development attributes of the AI RMF are outlined in Appendix D?",
+      "target_page": 47,
+      "correct_answer": "The Framework strives to be risk-based, voluntary, consensus-driven, transparent, clear and plain in language, easily usable, and a living document that is updated over time.",
+      "exact_source_passage": "The AI RMF strives to: 1. Be risk-based, resource-efficient, pro-innovation, and voluntary. 2. Be consensus-driven and developed and regularly updated through an open, transparent process... living document.",
+      "small_chunk_results": {
+        "is_hit": true,
+        "hit_rank": 1,
+        "mrr": 1.0,
+        "precision_at_5": 0.2,
+        "top_retrieved": [
+          {
+            "chunk_id": "small_chunk_0076",
+            "score": 0.6972,
+            "page": 46,
+            "pages": [
+              46,
+              47
+            ],
+            "text_snippet": "about the frequency and rationale with which humans overrule AI system output in deployed systems may be useful to collect and analyze. Page 41 Appendix D: Attributes of the AI RMF..."
+          },
+          {
+            "chunk_id": "small_chunk_0003",
+            "score": 0.6875,
+            "page": 4,
+            "pages": [
+              4,
+              5
+            ],
+            "text_snippet": "RMF Core 20 5.1 Govern 21 5.2 Map 24 5.3 Measure 28 5.4 Manage 31 6 AI RMF Profiles 33 Appendix A: Descriptions of AI Actor Tasks from Figures 2 and 3 35 Appendix B: How AI Risks D..."
+          },
+          {
+            "chunk_id": "small_chunk_0061",
+            "score": 0.6559,
+            "page": 38,
+            "pages": [
+              38
+            ],
+            "text_snippet": "and override, decommissioning, incident response, recovery, and change management. MANAGE 4.2: Measurable activities for continual improvements are integrated into AI system update..."
+          },
+          {
+            "chunk_id": "small_chunk_0002",
+            "score": 0.6438,
+            "page": 3,
+            "pages": [
+              3,
+              4
+            ],
+            "text_snippet": "the generation of the AI RMF and its companion documents (e.g., 1.0) and will change only with major revisions. Minor revisions will be tracked using “.n” after the generation numb..."
+          },
+          {
+            "chunk_id": "small_chunk_0009",
+            "score": 0.6387,
+            "page": 7,
+            "pages": [
+              7,
+              8
+            ],
+            "text_snippet": "align the AI RMF and related guidance with applicable international standards, guidelines, and practices. As the AI RMF is put into use, additional lessons will be learned to infor..."
+          }
+        ]
+      },
+      "large_chunk_results": {
+        "is_hit": false,
+        "hit_rank": null,
+        "mrr": 0.0,
+        "precision_at_5": 0.0,
+        "top_retrieved": [
+          {
+            "chunk_id": "large_chunk_0002",
+            "score": 0.6875,
+            "page": 4,
+            "pages": [
+              4,
+              5,
+              6
+            ],
+            "text_snippet": "RMF Core 20 5.1 Govern 21 5.2 Map 24 5.3 Measure 28 5.4 Manage 31 6 AI RMF Profiles 33 Appendix A: Descriptions of AI Actor Tasks from Figures 2 and 3 35 Appendix B: How AI Risks D..."
+          },
+          {
+            "chunk_id": "large_chunk_0031",
+            "score": 0.6559,
+            "page": 38,
+            "pages": [
+              38,
+              39,
+              40
+            ],
+            "text_snippet": "and override, decommissioning, incident response, recovery, and change management. MANAGE 4.2: Measurable activities for continual improvements are integrated into AI system update..."
+          },
+          {
+            "chunk_id": "large_chunk_0005",
+            "score": 0.6387,
+            "page": 7,
+            "pages": [
+              7,
+              8,
+              9
+            ],
+            "text_snippet": "align the AI RMF and related guidance with applicable international standards, guidelines, and practices. As the AI RMF is put into use, additional lessons will be learned to infor..."
+          },
+          {
+            "chunk_id": "large_chunk_0020",
+            "score": 0.6299,
+            "page": 24,
+            "pages": [
+              24,
+              25,
+              26
+            ],
+            "text_snippet": "communities, organizations, and society; • better information sharing within and across organizations about risks, decisionmaking processes, responsibilities, common pitfalls, TEVV..."
+          },
+          {
+            "chunk_id": "large_chunk_0001",
+            "score": 0.6289,
+            "page": 1,
+            "pages": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "text_snippet": "Artificial Intelligence Risk Management Framework (AI RMF 1.0) Artificial Intelligence Risk Management Framework (AI RMF 1.0) This publication is available free of charge from: htt..."
+          }
+        ]
+      },
+      "bm25_small_results": {
+        "is_hit": true,
+        "hit_rank": 1
+      },
+      "generated_answer": "Based on the retrieved source passages, about the frequency and rationale with which humans overrule AI system output in deployed systems may be useful to collect and analyze. Page 41 Appendix D: Attributes of the AI RMF NIST described several key attributes of the AI RMF when work on the Framework first began. These attributes have remained intact and were used to guide the AI RMF’s development. [Source: NIST_AI_RMF_1.0.pdf, Page 46].",
+      "llm_provider": "grounded_fallback"
+    }
+  ],
+  "summary": {
+    "num_questions": 15,
+    "small_chunks": {
+      "chunk_size_words": 250,
+      "overlap_words": 50,
+      "total_chunks": 77,
+      "recall_at_5": 0.8667,
+      "mrr": 0.6722,
+      "precision_at_5": 0.2667
+    },
+    "large_chunks": {
+      "chunk_size_words": 500,
+      "overlap_words": 100,
+      "total_chunks": 39,
+      "recall_at_5": 0.8,
+      "mrr": 0.5244,
+      "precision_at_5": 0.1867
+    }
+  }
+}
