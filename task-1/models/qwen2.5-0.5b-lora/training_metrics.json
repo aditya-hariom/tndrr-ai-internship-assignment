@@ -1,0 +1,37 @@
+{
+  "param_stats": {
+    "trainable_parameters": 2162688,
+    "total_parameters": 496195456,
+    "trainable_percentage": 0.4359
+  },
+  "initial_val_loss": 1.5307,
+  "best_val_loss": 0.055,
+  "best_epoch": 2,
+  "total_duration_seconds": 802.79,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.2317,
+      "val_loss": 0.0654,
+      "lr": 0.000159,
+      "is_best": true,
+      "duration_seconds": 277.73
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.0533,
+      "val_loss": 0.055,
+      "lr": 5.5e-05,
+      "is_best": true,
+      "duration_seconds": 261.57
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.0422,
+      "val_loss": 0.0571,
+      "lr": 0.0,
+      "is_best": false,
+      "duration_seconds": 257.26
+    }
+  ]
+}

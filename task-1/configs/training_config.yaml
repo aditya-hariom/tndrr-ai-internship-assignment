@@ -1,0 +1,60 @@
+# ==============================================================================
+# Training and Evaluation Configuration
+# Task: Natural Language to Structured JSON Action Parsing
+# ==============================================================================
+
+model:
+  base_model_name_or_path: "Qwen/Qwen2.5-0.5B-Instruct"
+  torch_dtype: "float32"          # "bfloat16" / "float16" on CUDA, "float32" on CPU
+  device_map: "auto"
+  trust_remote_code: true
+
+lora:
+  r: 16                           # LoRA Rank
+  lora_alpha: 32                  # Scaling factor (scaling = alpha / r = 2.0)
+  lora_dropout: 0.05              # Dropout for regularizing adapter weights
+  target_modules:                 # Target attention projection layers
+    - "q_proj"
+    - "k_proj"
+    - "v_proj"
+    - "o_proj"
+  bias: "none"
+  task_type: "CAUSAL_LM"
+
+training:
+  output_dir: "models/qwen2.5-0.5b-lora"
+  num_train_epochs: 3
+  per_device_train_batch_size: 2
+  per_device_eval_batch_size: 2
+  gradient_accumulation_steps: 4  # Effective batch size = 2 * 4 = 8
+  learning_rate: 2.0e-4
+  weight_decay: 0.01
+  warmup_ratio: 0.05
+  lr_scheduler_type: "cosine"
+  logging_steps: 10
+  save_strategy: "epoch"
+  evaluation_strategy: "epoch"
+  save_total_limit: 2
+  load_best_model_at_end: true
+  metric_for_best_model: "loss"
+  greater_is_better: false
+  max_seq_length: 256
+  gradient_checkpointing: true
+  seed: 42
+
+generation:
+  max_new_tokens: 80
+  batch_size: 8
+  do_sample: false                # Deterministic greedy decoding
+  temperature: 0.0
+  top_p: 1.0
+
+paths:
+  train_data: "data/train.jsonl"
+  validation_data: "data/validation.jsonl"
+  test_data: "data/test.jsonl"
+  baseline_results: "results/baseline_metrics.json"
+  baseline_predictions: "results/baseline_predictions.jsonl"
+  finetuned_results: "results/finetuned_metrics.json"
+  finetuned_predictions: "results/finetuned_predictions.jsonl"
+  comparison_results: "results/comparison.csv"

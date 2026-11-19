@@ -1,0 +1,66 @@
+[
+  {
+    "id": "test_0018",
+    "error_category": "Ambiguous Request / Out-of-Schema Intent Hallucination",
+    "user_input": "Track twenty dollars.",
+    "expected_json": {
+      "intent": "unknown",
+      "error": "insufficient_information",
+      "raw_query": "Track twenty dollars."
+    },
+    "actual_model_output": {
+      "intent": "set_goal",
+      "amount": 20.0,
+      "category": null,
+      "label": "Track"
+    },
+    "explanation": "The input request lacks merchant, category, and direction (income vs expense). The schema designates such underspecified utterances as 'unknown' with error 'insufficient_information'. The fine-tuned model attempted to over-satisfy the query and hallucinated a completely unsupported intent ('set_goal') outside the predefined intent enum.",
+    "potential_improvement": "Expand the training set with ambiguous single-phrase utterances paired with 'unknown' fallback responses, and implement schema-constrained decoding (e.g. grammar-based sampling or Outlines/JSON schema logits processors) to make invalid intent generation mathematically impossible at inference time."
+  },
+  {
+    "id": "test_0006",
+    "error_category": "Entity Span Boundary Delineation (Over-Extraction)",
+    "user_input": "Set up a Customer advisory council discussion with Kavita and Amara on on Jan 15th at 10:00 AM for 90-minute.",
+    "expected_json": {
+      "intent": "schedule_meeting",
+      "title": "Customer advisory council",
+      "participants": ["Kavita", "Amara"],
+      "date": "on Jan 15th",
+      "time": "10:00",
+      "duration_minutes": 90
+    },
+    "actual_model_output": {
+      "intent": "schedule_meeting",
+      "title": "Customer advisory council discussion",
+      "participants": ["Kavita", "Amara"],
+      "date": "on Jan 15th",
+      "time": "10:00",
+      "duration_minutes": 90
+    },
+    "explanation": "The test template introduced a phrasing pattern ('Set up a {title} discussion with...') not seen verbatim in the training set. The model struggled to delineate where the proper noun entity ended and the framing syntax began, erroneously absorbing the syntactic noun 'discussion' into the 'title' slot.",
+    "potential_improvement": "Apply synthetic framing permutations (e.g. '{title} sync', '{title} session', '{title} discussion', 'discussion about {title}') to train the adapter to isolate entity spans regardless of following structural nouns."
+  },
+  {
+    "id": "test_0014",
+    "error_category": "Default Slot Hallucination on Missing Information",
+    "user_input": "Hold a meeting with Kenji and Tariq at for quick regarding Customer advisory council.",
+    "expected_json": {
+      "intent": "schedule_meeting",
+      "title": "Customer advisory council",
+      "participants": ["Kenji", "Tariq"],
+      "date": null,
+      "time": null,
+      "duration_minutes": null
+    },
+    "actual_model_output": {
+      "intent": "schedule_meeting",
+      "title": "Customer advisory council",
+      "participants": ["Kenji", "Tariq"],
+      "date": null,
+      "time": "12:00",
+      "duration_minutes": 30
+    },
+    "explanation": "The utterance contained malformed syntax ('at for quick') with no explicit timestamp or numeric duration. Instead of adhering to the schema rule of emitting null for missing slots, the model defaulted to conversational prior assumptions: scheduling a 'quick' meeting for 30 minutes at 12:00 PM.",
+    "potential_improvement": "Incorporate training examples featuring vague temporal adjectives ('quick', 'sometime', 'later', 'soon') that explicitly map to null rather than numeric defaults, reinforcing strict slot extraction over heuristic completion."
+  }
+]

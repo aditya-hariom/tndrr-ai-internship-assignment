@@ -1,0 +1,349 @@
+{
+  "total_samples": 160,
+  "raw_json_validity_rate": 0.7812,
+  "extracted_json_validity_rate": 0.8562,
+  "intent_accuracy": 0.0,
+  "exact_match_accuracy": 0.0,
+  "field_precision": 0.0828,
+  "field_recall": 0.0466,
+  "field_f1": 0.0597,
+  "field_accuracy": 0.0308,
+  "field_breakdown": {
+    "duration_seconds": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 37
+    },
+    "label": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 37
+    },
+    "action": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 111,
+      "fn": 0
+    },
+    "description": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 24,
+      "fn": 0
+    },
+    "amount": {
+      "precision": 0.2857,
+      "recall": 0.1622,
+      "f1": 0.2069,
+      "tp": 6,
+      "fp": 15,
+      "fn": 31
+    },
+    "currency": {
+      "precision": 0.6,
+      "recall": 0.0811,
+      "f1": 0.1429,
+      "tp": 3,
+      "fp": 2,
+      "fn": 34
+    },
+    "category": {
+      "precision": 0.2857,
+      "recall": 0.0541,
+      "f1": 0.0909,
+      "tp": 2,
+      "fp": 5,
+      "fn": 35
+    },
+    "merchant": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 37
+    },
+    "details": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 17,
+      "fn": 0
+    },
+    "duration": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 19,
+      "fn": 0
+    },
+    "parameters": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 8,
+      "fn": 0
+    },
+    "title": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 37
+    },
+    "participants": {
+      "precision": 1.0,
+      "recall": 0.1622,
+      "f1": 0.2791,
+      "tp": 6,
+      "fp": 0,
+      "fn": 31
+    },
+    "date": {
+      "precision": 0.1333,
+      "recall": 0.027,
+      "f1": 0.0449,
+      "tp": 2,
+      "fp": 13,
+      "fn": 72
+    },
+    "time": {
+      "precision": 0.3158,
+      "recall": 0.0811,
+      "f1": 0.129,
+      "tp": 6,
+      "fp": 13,
+      "fn": 68
+    },
+    "duration_minutes": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 37
+    },
+    "message": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 13,
+      "fn": 0
+    },
+    "transaction": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 4,
+      "fn": 0
+    },
+    "meeting_date": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 10,
+      "fn": 0
+    },
+    "topic": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 9,
+      "fn": 0
+    },
+    "task": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 37
+    },
+    "priority": {
+      "precision": 1.0,
+      "recall": 0.0541,
+      "f1": 0.1026,
+      "tp": 2,
+      "fp": 0,
+      "fn": 35
+    },
+    "error": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 12
+    },
+    "raw_query": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 12
+    },
+    "result": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 6,
+      "fn": 0
+    },
+    "location": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 6,
+      "fn": 0
+    },
+    "expense_type": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 2,
+      "fn": 0
+    },
+    "readout_date": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 2,
+      "fn": 0
+    },
+    "setup": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 4,
+      "fn": 0
+    },
+    "subject": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 2,
+      "fn": 0
+    },
+    "item": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 2,
+      "fn": 0
+    },
+    "object": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 0
+    },
+    "meeting": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 0
+    },
+    "request": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 2,
+      "fn": 0
+    },
+    "summary": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 0
+    },
+    "confirmation": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 0
+    },
+    "inputs": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 0
+    },
+    "output": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 0
+    },
+    "status": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 0
+    },
+    "subcategory": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 0
+    },
+    "amount_spent": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 0
+    },
+    "confirmation_date": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 0
+    }
+  }
+}

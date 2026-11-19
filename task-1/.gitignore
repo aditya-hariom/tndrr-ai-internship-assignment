@@ -1,0 +1,8 @@
+# Local training checkpoints (only best_adapter is versioned)
+checkpoint-*/
+models/**/checkpoint-*/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class

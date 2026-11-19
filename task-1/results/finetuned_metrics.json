@@ -1,0 +1,133 @@
+{
+  "total_samples": 160,
+  "raw_json_validity_rate": 0.9938,
+  "extracted_json_validity_rate": 0.9938,
+  "intent_accuracy": 0.9875,
+  "exact_match_accuracy": 0.6438,
+  "field_precision": 0.8698,
+  "field_recall": 0.8653,
+  "field_f1": 0.8675,
+  "field_accuracy": 0.7661,
+  "field_breakdown": {
+    "duration_seconds": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 37,
+      "fp": 0,
+      "fn": 0
+    },
+    "label": {
+      "precision": 0.9737,
+      "recall": 1.0,
+      "f1": 0.9867,
+      "tp": 37,
+      "fp": 1,
+      "fn": 0
+    },
+    "amount": {
+      "precision": 0.973,
+      "recall": 0.973,
+      "f1": 0.973,
+      "tp": 36,
+      "fp": 1,
+      "fn": 1
+    },
+    "currency": {
+      "precision": 1.0,
+      "recall": 0.973,
+      "f1": 0.9863,
+      "tp": 36,
+      "fp": 0,
+      "fn": 1
+    },
+    "category": {
+      "precision": 0.9189,
+      "recall": 0.9189,
+      "f1": 0.9189,
+      "tp": 34,
+      "fp": 3,
+      "fn": 3
+    },
+    "merchant": {
+      "precision": 1.0,
+      "recall": 0.973,
+      "f1": 0.9863,
+      "tp": 36,
+      "fp": 0,
+      "fn": 1
+    },
+    "title": {
+      "precision": 0.4865,
+      "recall": 0.4865,
+      "f1": 0.4865,
+      "tp": 18,
+      "fp": 19,
+      "fn": 19
+    },
+    "participants": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 37,
+      "fp": 0,
+      "fn": 0
+    },
+    "date": {
+      "precision": 0.9189,
+      "recall": 0.9189,
+      "f1": 0.9189,
+      "tp": 68,
+      "fp": 6,
+      "fn": 6
+    },
+    "time": {
+      "precision": 0.7838,
+      "recall": 0.7838,
+      "f1": 0.7838,
+      "tp": 58,
+      "fp": 16,
+      "fn": 16
+    },
+    "duration_minutes": {
+      "precision": 0.7568,
+      "recall": 0.7568,
+      "f1": 0.7568,
+      "tp": 28,
+      "fp": 9,
+      "fn": 9
+    },
+    "task": {
+      "precision": 0.8919,
+      "recall": 0.8919,
+      "f1": 0.8919,
+      "tp": 33,
+      "fp": 4,
+      "fn": 4
+    },
+    "priority": {
+      "precision": 0.5676,
+      "recall": 0.5676,
+      "f1": 0.5676,
+      "tp": 21,
+      "fp": 16,
+      "fn": 16
+    },
+    "error": {
+      "precision": 1.0,
+      "recall": 0.9167,
+      "f1": 0.9565,
+      "tp": 11,
+      "fp": 0,
+      "fn": 1
+    },
+    "raw_query": {
+      "precision": 1.0,
+      "recall": 0.9167,
+      "f1": 0.9565,
+      "tp": 11,
+      "fp": 0,
+      "fn": 1
+    }
+  }
+}
